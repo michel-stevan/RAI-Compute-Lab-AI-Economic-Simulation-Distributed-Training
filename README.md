@@ -44,3 +44,6 @@ See docs/architecture.md for detailed explanation.
 ```bash
 git clone https://github.com/yourusername/rai-compute-lab.git
 cd rai-compute-lab/backend
+
+## 2. Install Dependencies
+pip install -r requirements.txt
