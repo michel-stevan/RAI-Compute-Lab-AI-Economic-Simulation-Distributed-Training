@@ -72,4 +72,4 @@ Exploring decentralized AI infrastructure for large-scale economic simulation an
 ---
 
 ## License
-MIT
+discord  : @michel_stevan
