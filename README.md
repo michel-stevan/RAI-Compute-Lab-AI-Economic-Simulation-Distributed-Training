@@ -1,5 +1,3 @@
-# RAI-Compute-Lab-AI-Economic-Simulation-Distributed-Training
-AI Economic Simulation &amp; Distributed Training
 # RAI Compute Lab
 AI Economic Simulation & Distributed Training Sandbox on RAI Network
 
@@ -44,6 +42,19 @@ See docs/architecture.md for detailed explanation.
 ```bash
 git clone https://github.com/yourusername/rai-compute-lab.git
 cd rai-compute-lab/backend
-
-## 2. Install Dependencies
+2. Install Dependencies
 pip install -r requirements.txt
+3. Run API
+uvicorn api:app --reload
+
+API runs at:
+http://127.0.0.1:8000
+
+API Example
+
+POST /predict
+
+{
+  "inflation": 0.05,
+  "shock": 1
+}
